@@ -1,0 +1,142 @@
+/* Body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #c8b79d; 
+  }
+  
+  /* Navbar */
+  .navbar-brand img {
+    border: 2px solid #fff;
+  }
+
+  /* Carousel */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /*About Section*/
+    .image{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    }
+
+  /* Owner Section */
+  .featurette-heading {
+    font-weight: bold;
+  }
+  .col-md-7{
+    text-align: left;
+  }
+  
+  /* Tabs Navigation */
+  .nav-tabs .nav-link {
+    border: 1px solid #333;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: orange;
+    color: white;
+    border-color: #333;
+  }
+  
+  /* Product List */
+.menu{
+    text-align: center;
+}
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #333;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  #menu{
+    scroll-margin-top: 60px;
+  }
+
+  /* card produk */
+  .row {
+    text-align: center;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    margin: 0 5px;
+    background-color: #c8b79d;
+}
+.custom-btn{
+  background-color: #c97b48;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #b86d3f; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+  height: 370px;
+  object-fit: cover;
+}
+
+  /* Footer */
+  .footer {
+    color: #f8f9fa;
+  }
+  
+  footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  footer a {
+    color: #f8f9fa;
+    margin-right: 10px;
+  }
+  
+  footer a:hover {
+    color: #ffc107;
+  }
+  
+  footer small a {
+    color: #f8f9fa;
+  }
+  
+  footer small a:hover {
+    text-decoration: underline;
+  }
+  /*Modal */
+  .modal-content{
+    background-color: #c8b79d;
+  }
+  .form-control {
+    background-color: #ddd;
+  }
+  .form-select{
+    background-color: #ddd;
+  }
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px;
+    }
+  
+    footer .text-end {
+      text-align: center !important;
+      margin-top: 20px;
+    }
+  }
+  
